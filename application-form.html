@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="">
+    <label for="name" >Name :</label>
+    <input type="text" name="name" placeholder="Enter Your Name"><br><br>
+    <label for="email">Email :</label>
+    <input type="email" name="email" placeholder="Enter Your Email"><br><br>
+    <label for="gender">gender :</label>
+    <input type="radio" name="gender">
+    <label for="male">male</label>
+    <input type="radio" name="gender">
+    <label for="gender">female</label><br><br>
+    <label for="skill">CHOOSE SKILLS</label><br><br>
+    <label for="skill">HTML</label>
+    <input type="checkbox" name="skill">
+    <label for="skill">CSS</label>
+    <input type="checkbox" name="skill">
+    <label for="skill">Js</label>
+    <input type="checkbox" name="skill">
+    <label for="skill">Bootstrap</label>
+    <input type="checkbox" name="skill">
+    <label for="skill">React</label>
+    <input type="checkbox" name="skill"><br><br>
+    <label for="job">Job Type</label>
+    <select name="job" id="">
+        <option value="frontend">frontend-developer</option>
+        <option value="backend">backend-developer</option>
+        <option value="database">database</option>
+    </select><br><br>
+    <label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist><br><br>
+
+<textarea name="text" id="" cols="20" rows="3" placeholder="give brief summary about you"></textarea><br><br>
+<input type="submit">
+        
+</form>
+</body>
+</html>
